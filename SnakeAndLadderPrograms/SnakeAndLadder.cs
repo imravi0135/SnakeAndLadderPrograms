@@ -8,6 +8,14 @@ namespace SnakeAndLadderPrograms
 {
     internal class SnakeAndLadder
     {
+        public int StartPoint = 0;
+        public void StartPlaying()
+        {
+            Console.WriteLine("Game start now");
 
+            Console.WriteLine("Starting point is " + StartPoint); //Main Start Point
+        }
     }
+
 }
+
